@@ -14,12 +14,13 @@
 - **Iconos**: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - **Terminal**: [Terminator](https://gnome-terminator.org/)
 
-## Dotfiles
+## Archivos de configuración y dotfiles
 - Tema GTK: Graphite Dark
 - Tema para Gestor de ventanas: Fluent Dark
 - Iconos (Folders de color gris): Papirus, Papirus Dark, Papirus Light 
 - Configuración Terminator
 - Configuración para perfil de panel
+- Fondos
 
 ## Preparación inical
 
