@@ -1,0 +1,64 @@
+[global_config]
+  broadcast_default = off
+  scroll_tabbar = True
+  inactive_color_offset = 0.8243243243243243
+  enabled_plugins = Logger, LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+[keybindings]
+  go_down = <Super>Down
+  go_left = <Super>Left
+[profiles]
+  [[default]]
+    allow_bold = False
+    icon_bell = False
+    background_color = "#ffffdd"
+    background_darkness = 1.0
+    background_image = None
+    cursor_shape = ibeam
+    cursor_fg_color = "#ffffdd"
+    cursor_bg_color = "#000000"
+    font = JetBrains Mono 9
+    foreground_color = "#000000"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    palette = "#000000:#aa0000:#00aa00:#aa5500:#0000aa:#aa00aa:#00aaaa:#aaaaaa:#555555:#ff5555:#55ff55:#ffff55:#5555ff:#ff55ff:#55ffff:#ffffff"
+    use_system_font = False
+    bold_is_bright = True
+  [[Andromeda]]
+    allow_bold = False
+    icon_bell = False
+    background_color = "#23262e"
+    background_darkness = 1.0
+    background_image = None
+    cursor_shape = ibeam
+    cursor_fg_color = "#ffffdd"
+    cursor_bg_color = "#f8f8f0"
+    font = JetBrains Mono 10
+    foreground_color = "#e5e5e5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    palette = "#000000:#f92672:#00e8c6:#ffe66d:#7cb7ff:#c74ded:#96e072:#e5e5e5:#666666:#ee5d43:#96e072:#f39c12:#7cb7ff:#ff00aa:#00e8c6:#e5e5e5"
+    use_system_font = False
+    bold_is_bright = True
+[layouts]
+  [[default]]
+    [[[child0]]]
+      type = Window
+      parent = ""
+      order = 0
+      position = 126:93
+      maximised = False
+      fullscreen = False
+      size = 770, 475
+      title = alex@fedora:~
+      last_active_term = 56a744cc-0dcd-4420-8a2a-b7940a8326ef
+      last_active_window = True
+    [[[terminal1]]]
+      type = Terminal
+      parent = child0
+      order = 0
+      profile = Andromeda
+      uuid = 56a744cc-0dcd-4420-8a2a-b7940a8326ef
+[plugins]
