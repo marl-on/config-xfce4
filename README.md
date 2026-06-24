@@ -20,7 +20,7 @@
 - Iconos (Folders de color gris): Papirus, Papirus Dark, Papirus Light 
 - Configuración Terminator
 - Configuración para perfil de panel
-- Fondos
+- Fondos de pantalla
 
 ## Preparación inical
 
