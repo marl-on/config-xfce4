@@ -1,5 +1,11 @@
 # Dotfiles y configuración para Fedora Linux
+
 Este repositorio lo he hecho con el propósito de compartir mis archivos para personalizar y configurar mi entorno de escritorio XFCE4, especialmente usando la distribución de Fedora. También lo usare como un manual de como preparar y configurar mi entorno Fedora cuando haya cambiado de OS y quiera volver a utilizarlo.
+
+#### Agradecimiento
+
+Gracias a [rejarevaldy](https://github.com/rejarevaldy) porque este tema está fuertemente basado en su tema Lifeless para el entorno de escritorio xfce4 y por proveer archivos que sirvieron como base para trabajar en mi propio tema.
+Para más temas visitar su [Repositorio](https://https://github.com/rejarevaldy/dotfiles)
 
 ## Contenido
 
@@ -33,14 +39,19 @@ Este repositorio lo he hecho con el propósito de compartir mis archivos para pe
 ![Escritorio con Ventanas y Fastfetch](capturas/fastfetch.png)
 
 ## Dotfiles y archivos
+
+Estos son los archivos incluídos en este repositorio:
 - Tema GTK: Graphite Dark
 - Tema para Gestor de ventanas: Fluent Dark
-- Iconos (Folders de color gris): Papirus, Papirus Dark, Papirus Light 
-- Configuración Terminator
-- Configuración para perfil de panel
+- Iconos (Folders de color gris): Papirus, Papirus Dark, Papirus Light
+- Configuración para interfaces GTK3-0 
+- Configuración y temas para terminator
+- Configuración para perfil de panel xfce4
+- Configuración para Fastfetch
 - Fondos de pantalla
+-  
 
-## Preparación inical
+## Preparación inicial
 
 - Actualizar sistema, paquetes y repositorios
 
@@ -84,6 +95,7 @@ sudo dnf install jetbrains-mono-fonts-all
 ```
 
 ## Tema
+
 En mi experiencia, dependiendo del orden de la personlización de los elementos de XFCE4 (Ventanas, barras de título e ícono) pueden no aplicarse como esperado.   Este es el orden que me funcionó:
 
 ### Menú Apariencia
