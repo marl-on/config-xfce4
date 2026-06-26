@@ -9,7 +9,6 @@
   go_left = <Super>Left
 [profiles]
   [[default]]
-    allow_bold = False
     icon_bell = False
     background_color = "#ffffdd"
     background_darkness = 1.0
@@ -17,7 +16,7 @@
     cursor_shape = ibeam
     cursor_fg_color = "#ffffdd"
     cursor_bg_color = "#000000"
-    font = JetBrains Mono 9
+    font = JetBrains Mono 10
     foreground_color = "#000000"
     show_titlebar = False
     scrollbar_position = hidden
@@ -26,7 +25,6 @@
     use_system_font = False
     bold_is_bright = True
   [[Andromeda]]
-    allow_bold = False
     icon_bell = False
     background_color = "#23262e"
     background_darkness = 1.0
@@ -40,6 +38,39 @@
     scrollbar_position = hidden
     scroll_on_keystroke = False
     palette = "#000000:#f92672:#00e8c6:#ffe66d:#7cb7ff:#c74ded:#96e072:#e5e5e5:#666666:#ee5d43:#96e072:#f39c12:#7cb7ff:#ff00aa:#00e8c6:#e5e5e5"
+    use_system_font = False
+    bold_is_bright = True
+  [[Afterglow]]
+    icon_bell = False
+    background_color = "#232322"
+    background_darkness = 1.0
+    background_image = None
+    cursor_shape = ibeam
+    cursor_fg_color = "#ffffdd"
+    cursor_bg_color = "#16afca"
+    font = JetBrains Mono 10
+    foreground_color = "#e5e5e5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
+    use_system_font = False
+    bold_is_bright = True
+  [[MaterialDark]]
+    icon_bell = False
+    background_color = "#232322"
+    background_darkness = 1.0
+    background_image = None
+    cursor_blink = False
+    cursor_shape = ibeam
+    cursor_fg_color = "#ffffdd"
+    cursor_bg_color = "#16afca"
+    font = JetBrains Mono 8.5
+    foreground_color = "#e5e5e5"
+    show_titlebar = False
+    scrollbar_position = hidden
+    scroll_on_keystroke = False
+    palette = "#212121:#b7141f:#457b24:#f6981e:#134eb2:#560088:#0e717c:#efefef:#424242:#e83b3f:#7aba3a:#ffea2e:#54a4f3:#aa4dbc:#26bbd1:#d9d9d9"
     use_system_font = False
     bold_is_bright = True
 [layouts]
@@ -59,6 +90,6 @@
       type = Terminal
       parent = child0
       order = 0
-      profile = Andromeda
+      profile = Afterglow
       uuid = 56a744cc-0dcd-4420-8a2a-b7940a8326ef
 [plugins]
