@@ -1,5 +1,5 @@
 # Dotfiles y configuración para Fedora Linux
-Este repositorio lo he hecho con el fin de compartir mis archivos para personalizar y configura mi sistema Fedora, también lo usare como un manual de como preparar y configurar mi entorno Fedora cuando haya cambiado de OS y quiera volver a utilizarlo.
+Este repositorio lo he hecho con el propósito de compartir mis archivos para personalizar y configurar mi entorno de escritorio XFCE4, especialmente usando la distribución de Fedora. También lo usare como un manual de como preparar y configurar mi entorno Fedora cuando haya cambiado de OS y quiera volver a utilizarlo.
 
 ## Contenido
 
@@ -16,11 +16,11 @@ Este repositorio lo he hecho con el fin de compartir mis archivos para personali
 
 - **SO**: Fedora
 - **Shell**: Zsh
-- **ED**: [XFCE4](https://xfce.org/)
+- **Entorno de Escritorio**: [XFCE4](https://xfce.org/)
 - **Panel**: XFCE-Panel
 - **Fuente**: [Inconsolata](https://fonts.google.com/specimen/Inconsolata)
 - **Fuente Monoespaciada**: JetBrains Mono
-- **Editor de Texto:** Vim
+- **Editor de Texto:** [Helix](https://github.com/helix-editor/helix)
 - **IDE**: [Visual Studio Code](https://github.com/Microsoft/vscode)
 - **Navegador**: [Firefox](https://github.com/mozilla)
 - **Tema Gestor de ventanas**: [Fluent Dark](https://github.com/vinceliuice/Fluent-gtk-theme)
@@ -52,7 +52,6 @@ sudo dnf upgrade
 
 ```
 sudo dnf install https://mirrors.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://mirrors.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
-
 ```
 
 ```
@@ -82,26 +81,28 @@ sudo dnf install gnome-software
 ```
 sudo dnf install levien-inconsolata-fonts
 sudo dnf install jetbrains-mono-fonts-all
-
 ```
 
 ## Tema
+En mi experiencia, dependiendo del orden de la personlización de los elementos de XFCE4 (Ventanas, barras de título e ícono) pueden no aplicarse como esperado.   Este es el orden que me funcionó:
 
-1.  Apariencia -> Estilo -> Graphite-dark
-2.  Apariencia -> Iconos -> Papirus-Dark
-3.  Apariencia -> Letra -> Fuente predeterminada -> Inconsolata Regular 11pt
-4.  Apariencia -> Letra -> Fuente monoespaciada -> JetBrains Mono Regular 10pt
-5.  Gestor de ventanas -> Estilo -> Tema -> Fluent-Dark
-6.  Gestor de ventanas -> Estilo -> Fuente -> Inconsolata Regular 11pt
-7.  Gestor de ventanas -> Estilo -> Alineación del título -> Izquierda
-8.  Gestor de ventanas -> Estilo -> Fuente -> Inconsolata Regular 11pt
+### Menú Apariencia
+1.  Apartado de Estilo y aplicar Graphite-dark
+2.  Apartado de Iconos y aplicar Papirus-Dark
+3.  Apartado de Letra, en Fuente predeterminada aplicar Inconsolata Regular 11pt
+4.  Apartado de Letra, en Fuente monoespaciada aplicar JetBrains Mono Regular 10pt
+
+### Gestor de ventanas
+1.  En Estilo, luego Tema y aplicar Fluent-Dark
+2.  En Estilo, en Tipografía del título aplicar Inconsolata Regular 11pt
+3.  En Estilo, en Alineación del título escoger Izquierda y en distribución de los botones colocar menú, título, minimizar, maximizar y cerrar.
 
 ## Herramientas
 
 - Paquetes para manejo de archivos comprimidos
 
 ```
-# .rar files can only be extracted and not created
+# archivos .rar solo pueden visualizarse y extraerse, no creados  
 sudo dnf install zip unzip unrar p7zip pzip-plugins zstd
 ```
 
