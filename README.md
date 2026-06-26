@@ -4,7 +4,7 @@ Este repositorio lo he hecho con el propósito de compartir mis archivos para pe
 
 #### Agradecimiento
 
-Gracias a [rejarevaldy](https://github.com/rejarevaldy) porque este tema está fuertemente basado en su tema Lifeless para el entorno de escritorio xfce4 y por proveer archivos que sirvieron como base para trabajar en mi propio tema.
+Gracias a [rejarevaldy](https://github.com/rejarevaldy) porque este tema está fuertemente basado en su tema Lifeless para el entorno de escritorio xfce4 y por proveer archivos que sirvieron como base para trabajar en mi propio tema.  
 Para más temas visitar su [Repositorio](https://https://github.com/rejarevaldy/dotfiles)
 
 ## Contenido
