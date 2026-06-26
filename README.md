@@ -29,8 +29,8 @@ Este repositorio lo he hecho con el fin de compartir mis archivos para personali
 - **Terminal**: [Terminator](https://gnome-terminator.org/)
 
 ## Capturas
-[!Escritorio](capturas/desktop.png)
-[!Fastfetch y ventanas](capturas/fastfetch.png)
+![Escritorio](capturas/desktop.png)
+![Escritorio con Ventanas y Fastfetch](capturas/fastfetch.png)
 
 ## Dotfiles y archivos
 - Tema GTK: Graphite Dark
