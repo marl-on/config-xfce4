@@ -1,3 +1,17 @@
+# Dotfiles y configuración para Fedora Linux
+Este repositorio lo he hecho con el fin de compartir mis archivos para personalizar y configura mi sistema Fedora, también lo usare como un manual de como preparar y configurar mi entorno Fedora cuando haya cambiado de OS y quiera volver a utilizarlo.
+
+## Contenido
+
+* [1. Información del Sistema](#información-del-sistema)
+* [2. Capturas](#capturas)
+* [3. Dotfiles y archivos](#dotfiles-y-archivos)
+* [4. Preparación inicial](#preparación-inicial)
+* [5. Fuentes](#fuentes)
+* [6. Tema](#tema)
+* [7. Herramientas](#herramientas)
+* [8. Atajos](#atajos)
+
 ## Información del Sistema
 
 - **SO**: Fedora
@@ -14,7 +28,11 @@
 - **Iconos**: [Papirus](https://github.com/PapirusDevelopmentTeam/papirus-icon-theme)
 - **Terminal**: [Terminator](https://gnome-terminator.org/)
 
-## Archivos de configuración y dotfiles
+## Capturas
+[!Escritorio](capturas/desktop.png)
+[!Fastfetch y ventanas](capturas/fastfetch.png)
+
+## Dotfiles y archivos
 - Tema GTK: Graphite Dark
 - Tema para Gestor de ventanas: Fluent Dark
 - Iconos (Folders de color gris): Papirus, Papirus Dark, Papirus Light 
